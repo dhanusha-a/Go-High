@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+{% load static %}
+
+<!--[if lt IE 8 ]>
+<html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+    <!--- Basic Page Needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Go High Adventure</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Mobile Specific Metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="{% static 'css/default.css'%}">
+    <link rel="stylesheet" href="{% static 'css/layout.css'%}">
+    <link rel="stylesheet" href="{% static 'css/media-queries.css'%}">
+    <link rel="stylesheet" href="{% static 'css/magnific-popup.css'%}">
+
+    <!-- Script
+    ================================================== -->
+    <script src="{% static 'js/modernizr.js'%}"></script>
+
+    <!-- Favicons
+     ================================================== -->
+    <link rel="shortcut icon" type="image/png" href="{% static 'images/favi1.png' %}"/>
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <!--<li><a class="smoothscroll" href="#about">About</a></li>-->
+	         <li><a class="smoothscroll" href="#resume">Services</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Packages</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+           <li><a href="{%url 'login' %}">Login</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">Go High Adventures</h1>
+            <h3><span>“Great things are done when men and mountains meet; This is not done by jostling in the street.” -William Blake</span></h3>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="{% static 'images/g-bg.jpg' %}" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Us</h2>
+
+            <p>
+               Our early childhood was shaped by the beauty of the local mountains. A passion developed over the course of the years from this fascination, which remains undiminished to this day. To share the uniqueness of this landscape with other people has always been, and will always be of great importance to me. And so, with the founding of Mountain Sports not only did our dreams come true, we also found our true calling for a career.<br>
+               For over 20 years, Mountain Sports in Leh - Ladakh has been well known to nature lovers and adventurers far beyond the borders of the region for its exceptional, diversified adventure program.
+            </p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>Changspa,</span><br>
+                     Opp. Eagle Guest House,<br>
+                     Leh - Ladakh - 194101 (J & K),<br>
+                     India.<br>
+                     <span>+91-1982-252471</span><br>
+                     <span>info@dlatours.com</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Services we offer</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Planning Trips</h3>
+                  <p class="info">Your adventurous safety is our priority</p>
+
+                  <p>
+                  When you plan a trip to the Smoky Mountains, you’ll quickly find there’s something for everyone to do. Taking friends or family, or with the group planned by the our community, our itineraries will help you plan your trip to match your vacation style. We look for every detail to make your trips memorable and of course, safe.
+
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Trainings</h3>
+                  <p class="info">Learn from the best and stay above the rest !</p>
+
+                  <p>
+                  All of our nationally-recognised schemes are designed to educate and train people so that they can safely enjoy the climbing walls, crags, coast, hills and mountains of our beautiful country.
+
+                  Our qualifications train and assess people to look after other people in these environments, whether that's leading a walk in the mountains, coaching in a climbing wall or teaching multi pitch rock climbing. People who hold our qualifications have been assessed at a nationally agreed standard and may be volunteers, youth workers, outdoor instructors or teachers.
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Packages we provide</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="{% static 'images/relogo/family_mountains_ski_resort_winter_80680_1920x1080.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Family Package</h5>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt=""  src="{% static 'images/relogo/rafting-293542_1280.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Raft and Canyon</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt=""  src="{% static 'images/relogo/home-slide-03.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Canyoning & Tubing</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt=""  src="{% static 'images/relogo/hover-slider-image-4.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Riverbug & Canyoning</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-05" title="">
+                        <img alt="" src="{% static 'images/relogo/6821009-skiing-wallpaper.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Individual Adventure</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-06" title="">
+                        <img alt=""  src="{% static 'images/relogo/extrememountainclimbingwallpaper638_1920x1080.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mountain & Glacier</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-07" title="">
+                        <img alt=""  src="{% static 'images/relogo/kay-liedl-423158-unsplash.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mountain Biking</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-08" title="">
+                        <img alt=""  src="{% static 'images/relogo/charlie-hammond-613478-unsplash.jpg' %}">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Mountain Climbing</h5>
+
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div>  <!-- item end -->
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/family_mountains_ski_resort_winter_80680_1920x1080.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>Family Package</h4>
+			      <p>
+                  The joys of rafting and small adventures for the whole family!<br>
+                  <b>PRICES: </b> &#8377; 5000 /- per child (6-14 years)
+                  <br>&emsp;&emsp;&emsp;&emsp; &ensp; &#8377; 6500 /- per person
+               </p>
+
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/rafting-293542_1280.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>Raft & Canyoning</h4>
+                  <p>Realize your outdoordreams!
+                     <br>
+                     <b>PRICES: </b> &#8377; 9,000 /- per person
+                     <br>
+                     <b>DATES: </b> April - October
+                  </p>
+
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/home-slide-03.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>Canyoning & Tubing</h4>
+			      <p>The action-packed canyoning and tubing package is a first-class weekend of watery fun.
+                  <br>
+                  <b>PRICES: </b> &#8377; 10,000 /- per person
+                  <br>
+                  <b>DATES: </b> April - September
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/hover-slider-image-4.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>River bug & Canyoning</h4>
+			      <p>NEW - and only with us
+                  <br>
+                  <b>PRICES: </b> &#8377; 11,000 /- per person
+                  <br>
+                  <b>DATES: </b> May - September
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+         <div id="modal-05" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/6821009-skiing-wallpaper.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>Adventure Individual</h4>
+			      <p>Take your pick of activities at a very special price!<br>
+                  <b>TOTAL TIME: </b> 1-3 days
+                  <br>
+                  <b>PRICES: </b> on request
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-05 End -->
+
+         <div id="modal-06" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/extrememountainclimbingwallpaper638_1920x1080.jpg' %}" alt="" />
+
+		      <div class="description-box">
+			      <h4>Mountain & Glacier</h4>
+			      <p>Let Glaciers chill you and Mountains thrill you...
+                  <br>
+                  <b>PRICES: </b> &#8377; 9,000 /- per person
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-06 End -->
+
+         <div id="modal-07" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/kay-liedl-423158-unsplash.jpg' %}"  alt="" />
+
+		      <div class="description-box">
+			      <h4>Mountain Biking</h4>
+			      <p>May your trails be crooked, winding, dangerous, leading to the most amazing view.
+                  <br>
+                  <b>PRICES: </b> &#8377; 8,000 /- per person
+                  <br>
+                  <b>DATES: </b> April - September
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-07 End -->
+
+         <div id="modal-08" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="{% static 'images/charlie-hammond-613478-unsplash.jpg' %}"  alt="" />
+
+		      <div class="description-box">
+			      <h4>Mountain Climbing</h4>
+			      <p>Hike more. Worry Less.
+                   <br>
+                  <b>PRICES: </b> &#8377; 10,000 /- per person
+                  <br>
+                  <b>DATES: </b> March - October
+               </p>
+
+		      </div>
+
+            <div class="link-box">
+               <a href="https://leh.nic.in/tourism/tourist-info/" target="blank">Details</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>DEAR ANSHUMAN,<br>
+                                 Thank you very much for the arrangements par excellence. We all are impressed. We were having very pleasant vacation.  I will give you the assurance that we will come back again soon. Also there are many curious visitors asking us for our experience and i am sure you will have more guests from our place.
+                           </p>
+                           <cite>Mr. Jhon Irving</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Hi Naveen,<br>
+                              First and foremost, we want to THANK YOU and your team for arranging this wonderful trip. We are all back home safely and still finding it difficult to get adjusted to our mundane life. This trip was way beyond our expectation and our eyes seems to have gone numb which are filled with excitement and magical memories to last a lifetime. <br>The trip was well within our budget, time constraints, and personal likes and dislikes. Every suggestion you made was excellent. The Itinerary was perfect and so were the people who implemented them.
+                           </p>
+                           <cite>Mr. Anoop Athreyasa</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p> The guide was phenomenal, Jeff. Not only was he patient, observant, and comprehensive. Wonderful views to be seen and Jeff would take your picture with the amazing mountains acting as a backdrop. The down pour of the two evenings prior scared me that the trip would be canceled, but in the end only made for a more daring trip. They do have you run a test course to help acclimate to the vehicle and terrain. Worth the time, money, and experience. For anyone to enjoy!!
+                           </p>
+                           <cite>Mr. Jamie</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1></h1>
+
+            </div>
+
+            <div class="ten columns">
+                  <p class="x">Get In Touch.</p>
+                  <p class="lead">How can we help you?
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="2" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <!--<span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>-->
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> Error boy</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Changspa,<br>
+                     Opp. Eagle Guest House,<br>
+                     Leh - Ladakh - 194101 (J & K),<br>
+                     India.<br>
+						   <span>+91-1982-252471</span>
+					   </p>
+
+				   </div>
+
+            </aside>
+        <a href="{% url 'contact' %}">Contact</a>
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2018 DD</li>
+               <li>Design by <a  href="#">Dhanusha Agarwal</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="{% static 'js/jquery-1.10.2.min.js' %}"><\/script>')</script>
+   <script src="{% static 'js/jquery-migrate-1.2.1.min.js' %}"></script>
+
+   <script src="{% static 'js/jquery.flexslider.js' %}"></script>
+   <script src="{% static 'js/waypoints.js' %}"></script>
+   <script src="{% static 'js/jquery.fittext.js' %}"></script>
+   <script src="{% static 'js/magnific-popup.js' %}"></script>
+   <script src="{% static 'js/init.js' %}"></script>
+
+</body>
+
+</html>
